@@ -16,7 +16,7 @@ const { fetchMyIP, fetchCoordsByIP, fetchISSFlyOverTimes } = require('./iss');
 //   console.log('It worked! Returned GeoCoords:', geo);
 // });
 
-fetchISSFlyOverTimes({ latitude: '43.87700', longitude: '-79.25780' }, (error, flyOverTimes) => {
+fetchISSFlyOverTimes({ latitude: '43.8770', longitude: '-79.25780' }, (error, flyOverTimes) => {
   if (error) {
     console.log("Flyover Times didn't work!", error);
     return;
